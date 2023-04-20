@@ -1,0 +1,109 @@
+/* Feel free to change any of the styling below!*/
+body {
+    text-align: center;
+font-family: "Comic Sans MS",Sans-Serif;
+}
+
+img {
+    width: 350px;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+
+}
+
+p {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+button {
+    height: 70px;
+  width:200px;
+  color: black;
+  background-color: #7d7d7d;
+  font-family: "Comic Sans MS",Sans-Serif;
+  border: inset #66248a 5px;
+  font-size: 30px;
+}
+
+
+h1 {
+    font-size: 50px;
+    color: black;
+}
+
+body {
+  background-color: #695f7c;
+
+}
+
+.picklerick {
+  width:125px;
+  border: inset #5b485b 10px;
+}
+
+.superman {
+  width: 200px;
+  border: inset #5b485b 10px;
+}
+
+.pixelcat {
+  width:450px;
+}
+
+.reset1{
+    width:150px;
+  height:50px;
+}
+}
+
+.reset2 {
+  width:150px;
+  height:50px;
+}
+
+/* When someone enters your game, you only want them to see the opening and the option buttons. The code below will use the display property to hide certain parts of the story. Remove the comments from the code below when you're ready for that step!*/
+
+/*
+.story-opening{
+   display:none;
+}
+*/
+
+
+.buttons{
+   display:block;
+}
+
+
+ 
+.option-one-screen{
+   display:none;
+}
+
+
+ 
+.option-two-screen{
+   display:none;
+}
+
+
+ 
+.option-one-end{
+   display:none;
+}
+
+
+ 
+.option-two-end{
+   display:none;
+}
